@@ -1,0 +1,221 @@
+:root{
+  --blue: #2B3499;
+  --orange: #FF6C22;
+  --light-orange: #FF9209;
+  --piel: #FFD099;
+}
+
+.main{
+  position: relative;
+  top: 60px;
+  width: 554px;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 0;
+}
+a{
+text-decoration:none;
+}
+.header{
+  position: fixed;
+  top: 0;
+  font-weight: bold;
+  background-color: var(--orange);
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+  z-index: 100; 
+  
+}
+.selector{
+  border-width:  0px;
+  /* border-radius: 10px 0px; */
+  height: 50px;
+  width: 50px;
+  background-color: var(--blue);
+  color: var(--piel);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.inheader{
+  display: inline-block;
+  vertical-align: middle;
+}
+.userinfo{
+  float: right;
+}
+.userinfo a:visited{
+  color: var(--blue);
+}
+.userimg{
+  width: 46px;
+  vertical-align:middle;
+  margin-left: 10px;
+  margin-right: 20px;
+  border: 4px solid var(--piel);
+
+  /* border-radius: 0px 10px; */
+}
+.listcont{
+    margin-top: 15px;
+    /* margin-left: 50px; */
+    width: 600px;
+  }
+.lists {
+  display: inline-block;
+  vertical-align: middle;
+  background: var(--orange);
+  width: 150px;
+  margin: 10px 10px;
+  padding: 5px 5px 5px 0 ;
+  font-weight: bold;
+  width: 250px;
+  height: 250px;
+  /* border-radius: 10px 0px; */
+}
+.sidepanel{
+  position: fixed;
+  text-align: right;
+  top: 70px;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background: var(--blue);
+  color: var(--piel);
+  z-index: 100;
+}
+
+.sidepanel div{
+  padding-right: 10px;
+}
+.sidepanel div ul li{
+  opacity: 0;
+  height: 0;
+  font-size: 0;
+  transition: 0.2s;
+}
+.sidepanel div ul:hover li{
+  opacity: 1;
+  height: 15px;
+  font-size: 12px;
+}
+.sidepanel div ul li a{
+  color: var(--piel);
+}
+.rightbor{
+    border-radius: 0px 20px;
+}
+.leftbor{
+    border-radius: 20px 0px;
+  }
+ 
+.lists ul li{
+  list-style-position: inside;
+}
+.lists ol li{
+  list-style-position: inside;
+}
+
+.disc li{
+  list-style-type: disc;
+}
+.square li{
+  list-style-type: square;
+}
+.circel li{
+  list-style-type: circel;
+}
+.none li{
+  list-style-type: none;
+}
+
+
+.I li{
+  list-style-type: upper-roman;
+}
+.i li{
+  list-style-type: ;
+}
+.A li{
+  list-style-type: upper-alpha;
+}
+.a li{
+  list-style-type: lower-alpha;
+}
+.dec{
+  list-style-type: decimal;
+}
+
+.formcont{
+  padding-left: 9px;
+}
+
+.formcont fieldset legend{
+  border-radius: 15px 15px 0px 0px;
+  border: 4px solid var(--orange);
+  padding: 4px;
+  background: var(--piel);
+  font-weight: bold;
+}
+
+.formcont fieldset{
+  border: 4px solid var(--orange);
+  border-radius: 10px;
+  background: var(--piel);
+  width: 500px;
+}
+.formcont fieldset label{
+  padding-left: 10px;
+}
+.formcont fieldset form table tr td textarea {
+  resize: none;
+}
+input{
+  border: 0;
+  background-color: var(--light-orange);
+  color: var(--blue);
+}
+.submit{
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.pdf{
+  margin: 10px;
+  border-radius: 15px;
+}
+.multimediacont video{
+  margin: 10px;
+  border-radius: 15px;
+}
+.multimediacont audio{
+  width: 534px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.Bigbounce{
+  position: fixed;
+  animation: bouncey 3s linear infinite alternate ;
+  width: 50px;
+  height: 50px;
+  z-index: 110;
+}
+
+.bounce{
+  position: fixed;
+  animation: bouncex 2s linear infinite alternate ;
+  z-index: 110;
+}
+@keyframes bouncex {
+  0% {left: 0px;}
+  100% {left: 100%;}
+}
+@keyframes bouncey {
+  0% {top: 0px;}
+  100% {top: 100%;}
+
+  
+}
