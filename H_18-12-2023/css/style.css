@@ -1,0 +1,47 @@
+body{
+  background: #000;
+  color: #fff;
+}
+
+.grid{
+  display: flex;
+  flex-direction: row;
+  gap: 10px 10px;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 25%;
+}
+
+.pairCont{
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.UI{
+  margin: 10px auto;
+  width: 100px;
+}
+.teams{
+  text-align: center;
+  font-weight: bold;
+  flex: 1 0 21%;
+  /* height: 50px; */
+}
+
+.r{
+  background: #f00;
+  color: #fff;
+}
+.g{
+  background: #0f0;
+  color: #000;
+}
+.b{
+  background: #00f;
+  color: #fff;
+}
+.y{
+  background: #ff0;
+  color: #000;
+}
+
