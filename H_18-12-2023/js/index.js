@@ -120,7 +120,8 @@ function group() {
 
 function makeGrid() {
     if (!isStart) {
-        if (group() == -3){
+        error = group();
+        if (error == -3){
           let rw = rand(2);
           document.getElementById("grid").innerHTML='';
           putBlock(getIds("teams")[rw][0],getIds("teams")[rw][1],"grid");
