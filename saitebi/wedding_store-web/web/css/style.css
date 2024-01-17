@@ -505,7 +505,7 @@ li.nbs-flexisel-item a:hover{
 	font-size:2em;
 	text-transform:uppercase;
 	font-family: 'JosefinSans-Bold';
-	color:#333;
+	color:#6f6f91;
 }
 .shpng-grid:nth-child(2){
 	border-left:2px solid rgba(51, 51, 51, 0.29);
@@ -564,7 +564,7 @@ li.nbs-flexisel-item a:hover{
 	padding:3em 0 2em;
 }
 .ftr-grid h4 {
-  color: #646464;
+  color: #ffd5e5;
   display: block;
   border-bottom: 1px solid #E5E5E5;
   padding-bottom: 5px;
@@ -577,7 +577,7 @@ li.nbs-flexisel-item a:hover{
   margin-top: 1em;
 }
 .ftr-grid ul li a {
-  color: #777;
+  color: #ffd5e5aa;
   padding: 3px 0;
   display: block;
   font-size:1em;
@@ -590,11 +590,11 @@ li.nbs-flexisel-item a:hover{
 	margin-bottom:2em;
 }
 .copywrite p {
-  color: #999;
+  color: #ffd5e5cc;
   font-size: 0.9em;
 }
 .copywrite p a{
-	color:#777;
+	color:#ffd5e5;
 }
 /*--Products--*/
 .product-model-sec {

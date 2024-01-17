@@ -27,16 +27,16 @@ ul.memenu.skyblue {text-align: center;}
   display: block;
 }
 .me-one ul li a{
-	color:#181b2a;
+	color:#6f6f91aa;
 	font-size:15px;
 	font-weight:600;
 }
 .me-one ul li a:hover{
 	text-decoration:none;
-	color:#ff5d56;
+	color:#6f6f91;
 }
 .me-one h4{
-	color:#00a0dc;
+	color:#6f6f91;
 	font-size:1.3em;
 	font-weight:600;
 	text-align:left;
