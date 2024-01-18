@@ -1,11 +1,10 @@
-let themedIDs = ["body"];
 
 
+function toggleTheme(){
+  let themedIDs = ["body"];
 
-function toggleTheme(toggleIDs){
-  toggleIDs.forEach(element => {
-    documoent.body.classList.toggle("dark-mode");
+  themedIDs.forEach(element => {
+    document.getElementById(element).classList.toggle("dark-mode"); 
   });
 }
 
-document.getElementById("themeToggle").addEventListener("click", toggleTheme); 
